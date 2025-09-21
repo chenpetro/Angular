@@ -33,10 +33,14 @@ export const routes: Routes = [
     path: '', // root path
     component: MainLayout,
     children: [
-      { path: '', component: MainLayout }, // optional: you may remove this if MainLayout has router-outlet
+      // { path: '', redirectTo: '/', pathMatch: 'full'},
+      // { path: '', component: MainLayout }, // optional: you may remove this if MainLayout has router-outlet
       { path: 'main', component: MainPage },
       { path: 'product/:id', component: ProductPage },
       { path: 'cart', component: CartPage },
     ],
   },
+  {
+    path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) // lazy load admin module
+  }
 ];
