@@ -35,7 +35,7 @@ export const routes: Routes = [
     children: [
       // { path: '', redirectTo: '/', pathMatch: 'full'},
       // { path: '', component: MainLayout }, // optional: you may remove this if MainLayout has router-outlet
-      { path: 'main', component: MainPage },
+      { path: '', component: MainPage },
       { path: 'product/:id', component: ProductPage },
       { path: 'cart', component: CartPage },
     ],
