@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
   selector: 'app-main-page',
   imports: [RouterModule],
   templateUrl: './main-page.html',
-  styleUrl: './main-page.scss'
+  styleUrls: ['./main-page.scss']
 })
 export class MainPage {
 
