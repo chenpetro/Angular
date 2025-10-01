@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-cart-page',
+  selector: 'app-product-page',
   imports: [RouterModule],
   standalone: true,
-  templateUrl: './cart-page.html',
-  styleUrl: './cart-page.scss'
+  templateUrl: './product-page.component.html',
+  styleUrl: './product-page.component.scss'
 })
-export class CartPage {
+export class ProductPage {
 
 }
+

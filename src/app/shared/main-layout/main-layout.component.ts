@@ -3,9 +3,10 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-main-layout',
-  templateUrl: './main-layout.html',
-  standalone: true,
   imports: [RouterModule],
+  standalone: true,
+  templateUrl: './main-layout.component.html',
+  styleUrl: './main-layout.component.scss',
 })
 export class MainLayout {
 

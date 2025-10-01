@@ -23,10 +23,10 @@
 // export class AppRoutingModule {}
 
 import { Routes } from '@angular/router';
-import { MainLayout } from './shared/main-layout/main-layout';
-import { ProductPage } from './product-page/product-page';
-import { CartPage } from './cart-page/cart-page';
-import { MainPage } from './main-page/main-page';
+import { MainLayout } from './shared/main-layout/main-layout.component';
+import { ProductPage } from './product-page/product-page.component';
+import { CartPage } from './cart-page/cart-page.component';
+import { MainPage } from './main-page/main-page.component';
 
 export const routes: Routes = [
   {

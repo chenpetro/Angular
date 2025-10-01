@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-admin-layout',
+  selector: 'app-cart-page',
   imports: [RouterModule],
   standalone: true,
-  templateUrl: './admin-layout.html',
-  styleUrl: './admin-layout.scss'
+  templateUrl: './cart-page.component.html',
+  styleUrl: './cart-page.component.scss'
 })
-export class AdminLayout {
+export class CartPage {
 
 }
-

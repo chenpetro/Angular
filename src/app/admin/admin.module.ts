@@ -1,8 +1,8 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
-import { AdminLayout } from "./shared/admin-layout/admin-layout";
-import { LoginPage } from "./login-page/login-page";
+import { AdminLayout } from "./shared/admin-layout/admin-layout.component";
+import { LoginPage } from "./login-page/login-page.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
